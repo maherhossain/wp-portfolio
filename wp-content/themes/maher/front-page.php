@@ -2,7 +2,7 @@
 <!-- Banner -->
 <section id="bannar-section" class="text-gray-600 bg-[#012730e6] body-font">
   <div
-    class="container sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 mx-auto flex flex-wrap p-2">
+    class="container sm:px-4 md:px-24 lg:px-32 lg:pt-24 lg:pb-10 sm:py-8 py-8 mx-auto flex flex-row flex-wrap items-center  p-2">
     <!-- Text Section -->
     <div class="lg:w-2/3 sm:w-full flex flex-col sm:pr-10 mb-5 lg:mb-0">
       <div class="w-full mb-6 px-4">
@@ -57,9 +57,9 @@
       <figure>
         <img
           class="mx-auto object-cover object-center max-w-full"
-          src="https://dummyimage.com/600x300"
+          src="http://localhost/portfolio/wp-content/uploads/2024/11/Maher-Hossain-1.jpg"
           alt="Picture of Maher Hossain, An Experienced Web Developer in Bangladesh" />
-        <figcaption class="text-center text-[#f5f5f5] italic">
+        <figcaption class="text-center text-sm text-[#f5f5f5] italic py-2">
           Maher Hossain - An Experienced Web Developer in Bangladesh
         </figcaption>
       </figure>
@@ -196,8 +196,8 @@
         <img
           class="object-cover object-center rounded mx-auto"
           alt="Picture of Maher Hossain - A Freelance Web Developer in Bangladesh"
-          src="https://maherhossain.com/wp-content/uploads/2022/11/Maher-Hossain.jpg" />
-        <figcaption class="text-center italic">
+          src="http://localhost/portfolio/wp-content/uploads/2024/11/Maher-Hossain.jpg" />
+        <figcaption class="text-center text-sm italic">
           Maher Hossain - Freelance Web Developer in Bangladesh
         </figcaption>
       </figure>

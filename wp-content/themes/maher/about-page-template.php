@@ -396,7 +396,7 @@ get_header(); ?>
 <?php echo do_shortcode('[testimonials_shortcode posts_per_page="4" category="upwork, fiverr"]'); ?>
 
 <!-- Recent Works/ Portfolios -->
-<?php echo do_shortcode('[portfolios_shortcode posts_per_page="6" title="Showcasing Excellence: Portfolio of a Freelance Web Developer in Bangladesh" description="Explore the portfolio of a seasoned Web Developer in Bangladesh, showcasing diverse projects in web development, WordPress customization, PHP, and Laravel. As a Freelance Web Developer in Bangladesh, I specialize in building responsive websites, custom WordPress themes, plugins, and e-commerce solutions. Whether you need a WordPress Developer in Bangladesh, a skilled PHP Developer, or a reliable Laravel Developer in Bangladesh, my portfolio highlights the quality and expertise I bring to every project."]'); ?>
+<?php echo do_shortcode('[portfolios_shortcode bg="" posts_per_page="6" title="Showcasing Excellence: Portfolio of a Freelance Web Developer in Bangladesh" description="Explore the portfolio of a seasoned Web Developer in Bangladesh, showcasing diverse projects in web development, WordPress customization, PHP, and Laravel. As a Freelance Web Developer in Bangladesh, I specialize in building responsive websites, custom WordPress themes, plugins, and e-commerce solutions. Whether you need a WordPress Developer in Bangladesh, a skilled PHP Developer, or a reliable Laravel Developer in Bangladesh, my portfolio highlights the quality and expertise I bring to every project."]'); ?>
 
 <!-- Clients section to showcase list of clients logo  -->
 <?php echo do_shortcode('[clients_shortcode posts_per_page="-1"]'); ?>

@@ -26,11 +26,11 @@
   class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
   <div class="flex flex-col lg:flex-row gap-4">
     <!-- Main Section (75% on large screens) -->
-    <main class="w-full lg:w-3/4 my-2 lg:my-0">
+    <main class="w-full lg:w-full my-2 lg:my-0">
       <div class="bg-white py-6 sm:py-8 lg:py-0">
         <div class="mx-auto max-w-screen-xl">
           <div
-            class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
+            class="grid gap-2 sm:grid-cols-1 md:gap-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-4">
 
             <!-- article - start -->
             <?php while (have_posts()) {
@@ -54,14 +54,15 @@
                     <span><span itemprop="datePublished" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('F j, Y'); ?></span> - <span itemprop="articleSection" itemscope itemtype="http://schema.org/Thing"><span itemprop="name"><?php echo get_the_category_list(', '); ?></span></span></span>
                   </sapn>
 
-                  <h2 itemprop="headline" class="text-xl font-bold text-gray-800">
-                    <a
-                      href="<?php the_permalink(); ?>"
-                      class="transition duration-100 hover:text-indigo-500 active:text-indigo-600"><?php the_title(); ?></a>
-                  </h2>
+                  <a href="<?php the_permalink(); ?>"
+                    class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">
+                    <h2 itemprop="headline" class="text-base font-bold text-gray-800">
+                      <?php the_title(); ?>
+                    </h2>
+                  </a>
 
                   <div itemprop="articleBody" class="text-gray-500">
-                    <?php echo wp_trim_words(get_the_content(), 20, '...'); ?>
+                    <?php echo wp_trim_words(get_the_content(), 30, '...'); ?>
                   </div>
 
                   <div>
@@ -79,34 +80,6 @@
         </div>
       </div>
     </main>
-
-    <!-- Aside Section (25% on large screens) -->
-    <aside
-      class="w-full lg:w-1/4 py-6 sm:py-8 lg:py-12 px-2 sm:px-2 lg:px-4 bg-gray-300">
-      <div class="bg-gray-100 p-6 rounded-lg shadow-md my-2">
-        <h2 class="text-xl font-bold mb-4">Aside Content</h2>
-        <p>
-          This is the aside section. It takes up 100% width on small and
-          medium devices and 25% on large screens.
-        </p>
-      </div>
-
-      <div class="bg-gray-100 p-6 rounded-lg shadow-md my-2">
-        <h2 class="text-xl font-bold mb-4">Aside Content</h2>
-        <p>
-          This is the aside section. It takes up 100% width on small and
-          medium devices and 25% on large screens.
-        </p>
-      </div>
-
-      <div class="bg-gray-100 p-6 rounded-lg shadow-md my-2">
-        <h2 class="text-xl font-bold mb-4">Aside Content</h2>
-        <p>
-          This is the aside section. It takes up 100% width on small and
-          medium devices and 25% on large screens.
-        </p>
-      </div>
-    </aside>
   </div>
 </div>
 
