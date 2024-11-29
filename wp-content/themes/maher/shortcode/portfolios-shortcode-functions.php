@@ -35,7 +35,7 @@ function portfolios_shortcode($atts)
 ?>
   <section id="portfolio-section" class="text-gray-600 <?php echo esc_html($atts['bg']); ?> body-font">
     <div
-      class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
+      class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 p-4">
       <!-- Title and Subtitle -->
       <div class="flex flex-col text-left w-full sm:mb-20 mb-5">
         <h2
@@ -91,7 +91,7 @@ function portfolios_shortcode($atts)
           echo '<p>No services found.</p>';
         endif;
         ?>
-        <a href="<?php echo get_post_type_archive_link('portfolio'); ?>" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">View All</a>
+        <a href="<?php echo get_post_type_archive_link('portfolio'); ?>" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 my-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">View All</a>
       </div>
     </div>
   </section>

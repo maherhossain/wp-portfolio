@@ -23,7 +23,7 @@ function clients_shortcode($atts)
 ?>
   <section id="clients-section" class="text-gray-600 <?php echo esc_html($atts['bg']); ?> body-font">
     <div
-      class="container mx-auto flex sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 md:flex-row flex-col items-center p-2">
+      class="container mx-auto flex sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 md:flex-row flex-col items-center p-4">
       <div class="lg:max-w-lg lg:w-1/3 md:w-full sm:w-full mb-10 md:mb-0">
         <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:mb-6 mb-4">
           <?php echo esc_html($atts['title']); ?>

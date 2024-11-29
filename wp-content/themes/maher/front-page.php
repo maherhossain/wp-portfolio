@@ -71,7 +71,7 @@
 <!-- services -->
 <div id="service-section" class="text-gray-600 bg-gray-200 body-font">
   <div
-    class="container sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 mx-auto p-2">
+    class="container sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 mx-auto p-4">
     <!-- services title -->
     <div class="flex flex-col text-left w-full sm:mb-20 mb-5">
       <h2
@@ -188,9 +188,9 @@
 <?php echo do_shortcode('[testimonials_shortcode posts_per_page="4" category="upwork, fiverr"]'); ?>
 
 <!-- About -->
-<section id="about-maher-hossain-section" class="text-gray-600  body-font">
+<section id="about-maher-hossain-section" class="text-gray-600 body-font">
   <div
-    class="container mx-auto flex flex-col-reverse sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 md:flex-row flex-col items-center p-2">
+    class="container mx-auto flex flex-col-reverse sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 md:flex-row flex-col items-center p-4">
     <div class="lg:max-w-lg lg:w-full md:w-2/7 w-4/6 mb-10 md:mb-0 order-2">
       <figure>
         <img
@@ -236,9 +236,9 @@
 
 
 <!-- Recent Blogs -->
-<section id="portfolio-section" class="text-gray-600  body-font">
+<section id="blog-section" class="text-gray-600 body-font">
   <div
-    class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
+    class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 p-4">
     <!-- Header Section -->
     <div class="flex flex-col text-left w-full sm:mb-20 mb-5">
       <h2
@@ -302,7 +302,7 @@
         echo '<p>No services found.</p>';
       endif;
       ?>
-      <a href="<?php echo get_post_type_archive_link('post'); ?>" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">View All</a>
+      <a href="<?php echo get_post_type_archive_link('post'); ?>" class="flex mx-auto text-white bg-indigo-500 border-0 focus:outline-none hover:bg-indigo-600 rounded text-lg py-2 px-8 my-8">View All</a>
     </div>
   </div>
 </section>
