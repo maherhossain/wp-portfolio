@@ -18,7 +18,7 @@ get_header(); ?>
 </section>
 </header>
 <div
-  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-2">
+  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-4">
   <div class="flex flex-col lg:flex-row gap-4">
     <!-- Main Section (75% on large screens) -->
     <main class="w-full lg:w-2/3 lg:my-0 my-2">

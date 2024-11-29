@@ -23,7 +23,7 @@
 </header>
 <!-- Header -->
 <div
-  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
+  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-4">
   <div class="flex flex-col lg:flex-row gap-4">
     <!-- Main Section (75% on large screens) -->
     <main class="w-full lg:w-full my-2 lg:my-0">

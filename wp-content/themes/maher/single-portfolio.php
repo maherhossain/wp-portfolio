@@ -14,7 +14,7 @@
 </section>
 <!-- Banner -->
 </header>
-<div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-2">
+<div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-4">
   <div class="flex flex-col lg:flex-row gap-4">
     <!-- Main Section (75% on large screens) -->
     <main class="w-full lg:w-4/6 lg:my-0 my-2">

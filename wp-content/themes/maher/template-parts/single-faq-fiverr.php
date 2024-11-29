@@ -1,5 +1,5 @@
 <div
-  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-2">
+  class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-12 sm:py-8 py-5 p-4">
   <div class="flex flex-col lg:flex-row gap-4">
     <!-- Main Section (75% on large screens) -->
     <main class="w-full lg:w-2/3 lg:my-0 my-2">
@@ -68,7 +68,7 @@
       <!-- Recent Blogs -->
       <section id="fiverr-faq-section" class="text-gray-600 body-font">
         <div
-          class="container mx-auto sm:px-4 md:px-2 lg:px-4 lg:py-4 sm:py-4 py-4 p-2">
+          class="container mx-auto sm:px-4 md:px-2 lg:px-4 lg:py-4 sm:py-4 py-4 p-4">
 
           <div class="flex flex-wrap -m-4 gap-2">
             <?php

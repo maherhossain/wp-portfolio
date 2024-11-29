@@ -9,7 +9,7 @@ get_header(); ?>
     <div class="flex flex-wrap -mx-4">
       <!-- Left Section -->
       <div class="w-full lg:w-wull px-4">
-        <h2 class="mt-18 sm:mt-10 mb-8 text-3xl font-bold text-white sm:text-4xl md:mb-12 md:text-4xl">
+        <h2 class="mt-10 mb-8 text-3xl font-bold text-white sm:text-4xl md:mb-12 md:text-4xl">
           <?php the_title(); ?> - Maher Hossain
         </h2>
       </div>
