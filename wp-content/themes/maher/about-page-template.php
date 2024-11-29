@@ -5,36 +5,77 @@
 get_header(); ?>
 <!-- Banner -->
 <section id="header-content" class="bg-slate-900 body-font">
-  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-14 lg:pb-4 sm:py-8 py-5 px-2">
+  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-14 lg:pb-4 sm:py-8 py-5 pt-20 px-4">
     <div class="flex flex-wrap -mx-4">
       <!-- Left Section -->
       <div class="w-full lg:w-wull px-4">
-        <h2 class="mt-10 mb-8 text-3xl font-bold text-white sm:text-4xl md:mb-12 md:text-4xl">
+        <h2 class="mt-18 sm:mt-10 mb-8 text-3xl font-bold text-white sm:text-4xl md:mb-12 md:text-4xl">
           <?php the_title(); ?> - Maher Hossain
         </h2>
       </div>
     </div>
   </div>
 </section>
+
 </header>
 <!-- About -->
-<section id="about-maher-hossain-section" class="text-gray-600  body-font">
-  <div
-    class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2 flex fles-row">
-    <div class="lg:max-w-lg lg:w-full md:w-2/7 w-4/6 mb-10 md:mb-0 order-2">
-      <figure>
-        <img
-          class="object-cover object-center rounded mx-auto"
-          alt="Picture of Maher Hossain - A Freelance Web Developer in Bangladesh"
-          src="https://maherhossain.com/wp-content/uploads/2022/11/Maher-Hossain.jpg" />
-        <figcaption class="text-center italic">
+<section id="about-maher-hossain-section" class="text-gray-600 body-font">
+  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 p-4">
+    <div class="flex flex-col lg:flex-row items-center lg:items-start">
+      <!-- Content Section -->
+      <div class="lg:w-2/3 lg:text-left">
+        <h1
+          class="title-font font-medium text-xl lg:text-2xl text-gray-900 my-4 sm:text-left sm:mt-0">
           Maher Hossain - Freelance Web Developer in Bangladesh
-        </figcaption>
-      </figure>
-      <br>
-      <!-- overview - start -->
-      <aside>
-        <div class="rounded-lg border p-4 md:sticky md:top-20">
+        </h1>
+        <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">
+          With over 7 years of experience as a professional Web Developer and SEO optimizer, I bring a diverse skill set and technical expertise to every project I undertake. I specialize in creating tailored web solutions that help businesses establish a strong digital presence while delivering exceptional user experiences.</p>
+
+        <h2 class="text-lg font-medium text-gray-900 py-4">My Skills and Expertise</h2>
+        <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">I am proficient in a wide range of programming languages, frameworks, and technologies, including:</p>
+        <ul class="list-disc list-inside pb-4 leading-relaxed text-base lg:text-lg">
+          <li><Strong class="title-font font-medium text-gray-900">Back-End Development:</Strong> PHP, Laravel, Node.js, React, and Java.
+          </li>
+          <li><strong class="title-font font-medium text-gray-900">Front-End Development:</strong> HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, and SASS.
+          </li>
+          <li><strong class="title-font font-medium text-gray-900">CMS Expertise:</strong> Custom WordPress theme and plugin development, Shopify, Webflow, Wix, Squarespace
+          </li>
+          <li><strong class="title-font font-medium text-gray-900">Certifications:</strong> Oracle Certified Professional Java SE 6 Programmer.
+          </li>
+          <li><strong class="title-font font-medium text-gray-900">Education:</strong> MSC in Computer Science and Engineering</li>
+        </ul>
+
+        <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">I excel in developing responsive, SEO-friendly websites and applications that are mobile-friendly, fast-loading, and compatible across all major browsers.</p>
+
+        <h2 class="text-lg font-medium text-gray-900 py-4">Entrepreneurial Journey</h2>
+        <ul class="list-disc list-inside mb-5 leading-relaxed text-base lg:text-lg">
+          <li><Strong class="title-font font-medium text-gray-900">Founder of MH Digital:</Strong> A digital agency offering innovative web solutions for both local and international clients.
+          </li>
+          <li><strong class="title-font font-medium text-gray-900">Co-Founder of CINTech Bangladesh Ltd:</strong> An ICT service provider specializing in communication, networking, and information technology.
+          </li>
+        </ul>
+
+        <h2 class="text-lg font-medium text-lg text-gray-900 py-4">Personal Interests</h2>
+        <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">Outside of my professional life, I enjoy traveling and exploring new places, which allows me to gain fresh perspectives and inspiration for my work. Reading books and listening to music are my favorite ways to unwind and recharge, providing me with creative ideas and motivation. Staying active through regular exercise helps me maintain focus and energy, while spending time with friends and loved ones keeps me grounded. I’m always curious about new possibilities and love brainstorming innovative ideas to push the boundaries of what I can achieve.
+        </p>
+
+        <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">Whether you're seeking a <a href="/">Web Developer in Bangladesh</a>, a PHP Developer, or a <a href="/services/wordpress-development/">WordPress Developer</a>, I am committed to delivering solutions that bring your vision to life. Let’s build something extraordinary together!
+        </p>
+
+      </div>
+      <!-- Image and Sidebar Section -->
+      <div class="lg:max-w-lg lg:w-1/3 w-full mb-8 lg:mb-0">
+        <figure>
+          <img
+            class="object-cover object-center rounded mx-auto"
+            alt="Picture of Maher Hossain - A Freelance Web Developer in Bangladesh"
+            src="https://maherhossain.com/wp-content/uploads/2022/11/Maher-Hossain.jpg" />
+          <figcaption class="text-center italic">
+            Maher Hossain - Freelance Web Developer in Bangladesh
+          </figcaption>
+        </figure>
+
+        <div class="rounded-lg border m-8 p-4 md:sticky md:top-20">
           <h2 class="mb-3 text-lg font-bold text-gray-800 lg:text-xl">
             Customer Reviews
           </h2>
@@ -160,55 +201,13 @@ get_header(); ?>
           <button
             class="block  mx-auto rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base" onclick="openModal()">Write a review</button>
         </div>
-      </aside>
-      <!-- overview - end -->
-    </div>
-    <div
-      class="lg:flex-grow order-1 md:w-5/7 lg:pr-6 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1
-        class="title-font font-medium text-xl lg:text-2xl text-gray-900 mb-4 sm:text-left sm:mt-0 mt-12">
-        Maher Hossain - Freelance Web Developer in Bangladesh
-      </h1>
-      <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">
-        With over 7 years of experience as a professional Web Developer and SEO optimizer, I bring a diverse skill set and technical expertise to every project I undertake. I specialize in creating tailored web solutions that help businesses establish a strong digital presence while delivering exceptional user experiences.</p>
-
-      <h2 class="text-lg font-medium text-gray-900 py-4">My Skills and Expertise</h2>
-      <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">I am proficient in a wide range of programming languages, frameworks, and technologies, including:</p>
-      <ul class="list-disc list-inside pb-4 leading-relaxed text-base lg:text-lg">
-        <li><Strong class="title-font font-medium text-gray-900">Back-End Development:</Strong> PHP, Laravel, Node.js, React, and Java.
-        </li>
-        <li><strong class="title-font font-medium text-gray-900">Front-End Development:</strong> HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, and SASS.
-        </li>
-        <li><strong class="title-font font-medium text-gray-900">CMS Expertise:</strong> Custom WordPress theme and plugin development, Shopify, Webflow, Wix, Squarespace
-        </li>
-        <li><strong class="title-font font-medium text-gray-900">Certifications:</strong> Oracle Certified Professional Java SE 6 Programmer.
-        </li>
-        <li><strong class="title-font font-medium text-gray-900">Education:</strong> MSC in Computer Science and Engineering</li>
-      </ul>
-
-      <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">I excel in developing responsive, SEO-friendly websites and applications that are mobile-friendly, fast-loading, and compatible across all major browsers.</p>
-
-      <h2 class="text-lg font-medium text-gray-900 py-4">Entrepreneurial Journey</h2>
-      <ul class="list-disc list-inside mb-5 leading-relaxed text-base lg:text-lg">
-        <li><Strong class="title-font font-medium text-gray-900">Founder of MH Digital:</Strong> A digital agency offering innovative web solutions for both local and international clients.
-        </li>
-        <li><strong class="title-font font-medium text-gray-900">Co-Founder of CINTech Bangladesh Ltd:</strong> An ICT service provider specializing in communication, networking, and information technology.
-        </li>
-      </ul>
-
-      <h2 class="text-lg font-medium text-lg text-gray-900 py-4">Personal Interests</h2>
-      <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">Outside of my professional life, I enjoy traveling and exploring new places, which allows me to gain fresh perspectives and inspiration for my work. Reading books and listening to music are my favorite ways to unwind and recharge, providing me with creative ideas and motivation. Staying active through regular exercise helps me maintain focus and energy, while spending time with friends and loved ones keeps me grounded. I’m always curious about new possibilities and love brainstorming innovative ideas to push the boundaries of what I can achieve.
-      </p>
-
-      <p class="leading-relaxed text-base lg:text-lg mb-4 text-justify">Whether you're seeking a <a href="/">Web Developer in Bangladesh</a>, a PHP Developer, or a <a href="/services/wordpress-development/">WordPress Developer</a>, I am committed to delivering solutions that bring your vision to life. Let’s build something extraordinary together!
-      </p>
-
+      </div>
     </div>
   </div>
 </section>
 
 <section class="text-gray-600 bg-gray-200 body-font">
-  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
+  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 p-4">
     <!-- Header Section -->
     <div class="flex flex-col text-left w-full sm:mb-20 mb-5">
       <h2
@@ -317,7 +316,7 @@ get_header(); ?>
 <!-- Role -->
 <section id="testimonial-section" class="text-gray-600 body-font">
   <div
-    class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-5 p-2">
+    class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-24 sm:py-8 py-8 p-4">
     <!-- Header Section -->
     <div class="flex flex-col text-left w-full sm:mb-20 mb-5">
       <h2

@@ -58,7 +58,7 @@ function faq_home_shortcode($atts)
                 <?php the_title(); ?>
               </h3>
 
-              <p itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="text-gray-500 dark:text-gray-400">
+              <p itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="mx-auto leading-relaxed text-base text-justify">
                 <?php echo wp_trim_words(get_the_content(), 40, '...'); ?>
                 <a class="text-indigo-600 hover:text-[#007bff] inline-flex items-center" href="<?php the_permalink(); ?>">
                   view more »

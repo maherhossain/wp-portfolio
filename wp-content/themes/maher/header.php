@@ -73,7 +73,7 @@
         </a>
         <div
           class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <a href="<?php echo site_url('/contact'); ?>" class="mx-auto flex items-center gap-1 text-white bg-indigo-500 border-0 py-1 px-4 focus:outline-none hover:bg-indigo-600 rounded text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="<?php echo site_url('/contact'); ?>" class="mx-auto flex items-center gap-1 text-white bg-indigo-500 border-0 py-1 px-4 sm:py-2 sm:px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm sm:text-base"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.22 19.63 19.63 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72 12.11 12.11 0 0 0 .56 2.57 2 2 0 0 1-.45 2l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2-.45 12.11 12.11 0 0 0 2.57.56A2 2 0 0 1 22 16.92z" />
             </svg> 01799664170</a>
         </div>

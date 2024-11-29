@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- Banner -->
 <section id="header-content" class="bg-slate-900 body-font">
-  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-14 lg:pb-4 sm:py-8 py-5 px-2">
+  <div class="container mx-auto sm:px-4 md:px-24 lg:px-32 lg:py-14 lg:pb-4 sm:py-8 py-5 pt-20 px-4">
     <div class="flex flex-wrap -mx-4">
       <!-- Left Section -->
       <div class="w-full lg:w-2/3 px-4">

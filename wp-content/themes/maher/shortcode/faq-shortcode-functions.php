@@ -55,7 +55,7 @@ function faq_shortcode($atts)
                 </svg>
                 <?php the_title(); ?>
               </h3>
-              <p itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="text-gray-500 dark:text-gray-400">
+              <p itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" class="mx-auto leading-relaxed text-base text-justify">
                 <?php echo wp_trim_words(get_the_content(), 40, '...'); ?>
               </p>
             </div>
